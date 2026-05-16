@@ -68,13 +68,12 @@ In any project where you use Claude Code:
 ```bash
 cd <your-project>
 mkdir -p .claude/commands
-curl -o .claude/commands/research.md https://raw.githubusercontent.com/<your-username>/slow-claude/main/claude-code-commands/research.md
-curl -o .claude/commands/build.md https://raw.githubusercontent.com/<your-username>/slow-claude/main/claude-code-commands/build.md
+curl -o .claude/commands/research.md https://raw.githubusercontent.com/bendanziger/slow-claude/main/claude-code-commands/research.md
+curl -o .claude/commands/build.md https://raw.githubusercontent.com/bendanziger/slow-claude/main/claude-code-commands/build.md
 git add .claude/commands/
 git commit -m "chore: add slow-claude SDD slash commands"
 ```
 
-Replace `<your-username>` with your GitHub handle after forking.
 
 ---
 
@@ -150,4 +149,4 @@ MIT — fork it, modify it, share it.
 
 ## Credits
 
-Workflow developed by [@your-name] while building [Peles](https://peles-app.co.il), an Israeli construction bills-of-quantities SaaS. Refined across multiple production features under competitive deadline pressure.
+Workflow developed by @bendanziger while building [Peles](https://peles-app.co.il), an Israeli construction bills-of-quantities SaaS. Refined across multiple production features under competitive deadline pressure.
